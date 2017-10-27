@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+/*styles for the header*/
+
+header {
+  background-color: #FFF;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+header ul {
+  list-style: none;
+  margin: 0;
+  padding: 10px 20px;
+  text-align: center;
+  width: 100%;
+}
+header li {
+  display: inline-block;
+}
+/*Styles for main menu*/
+
+.main-menu {
+  border-bottom: 1px solid #B5B5B5;
+}
+
+.logo a {
+  color: #BD081C;
+}
+
+.logo a:hover {
+  color: #000;
+}
+
+.logo i {
+  height: 100%;
+  vertical-align: middle;
+}
+
+.search {
+  border-radius: 6px;
+  background-color: #EFEFEF;
+  width: 70%;
+  margin: 0 20px;
+}
+
+.search-box,.search-filter {
+  display: inline-block;
+}
+
+.search-box {
+    width: 85%;
+    padding: 10px;
+}
+
+.search-box form {
+  display: inline-block;
+  width: 85%;
+}
+
+.search-box input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  width: 100%;
+}
+
+.gray-icon {
+  padding: 0 10px;
+}
+
+.gray-icon i {
+  color: #B5B5B5;
+}
+
+/*Styles for filter menu*/
+
+.filter-menu li {
+  border-radius: 6px;
+  height: 60px;
+  margin: 5px;
+  background-color: gray;
+  background-image: url(../assets/images/gato2.jpg)
+}
+
+.filter-menu span {
+  color: #FFF;
+  display: block;
+  font-weight: 700;
+  line-height: 60px;
+  padding: 0 24px;
+  height: 100%;
+  width: 100%;
+  background: rgba(255, 153,204, 0.5);
+  cursor: pointer;
+}
